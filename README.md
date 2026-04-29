@@ -1,16 +1,49 @@
-# React + Vite
+# PrimeConSemLayer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PrimeConSemLayer is a React-based frontend prototype for an AI-powered semantic layer designed to interface with enterprise SAP systems such as SAP ECC and SAP S/4HANA.
 
-Currently, two official plugins are available:
+## Live App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add Vercel deployment link here.
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/PaLaK19V/PrimeConSemLayer
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Natural language query interface for SAP-style business questions
+- 19 KPI dashboard cards across sales, finance, procurement, logistics, production, and quality
+- Process mining view for Purchase-to-Pay analysis
+- Root cause analysis module for underperforming KPIs
+- Interactive charts and visualizations using Recharts
+- Modern React-based UI with sample SAP-style data
+
+## Current Status
+
+This is a frontend prototype built using mock/sample data. It demonstrates the product concept, user interface, workflows, and dashboard experience.
+
+The app is not yet connected to live SAP ECC or SAP S/4HANA systems.
+
+## Future Scope
+
+- Connect to SAP ECC/S/4HANA using RFC or OData APIs
+- Build a secure backend API layer
+- Move AI API calls to the backend
+- Add authentication and role-based access control
+- Integrate real process mining using pm4py or ProM
+- Connect dashboards to live SAP tables and KPI data
+- Deploy the full system on enterprise cloud infrastructure
+
+## Tech Stack
+
+React, Vite, JavaScript, Recharts, CSS-in-JS styling.
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/PaLaK19V/PrimeConSemLayer.git
+cd PrimeConSemLayer
+npm install
+npm run dev
+eof
