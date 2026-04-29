@@ -4,7 +4,7 @@ PrimeConSemLayer is a React-based frontend prototype for an AI-powered semantic 
 
 ## Live App
 
-Add Vercel deployment link here.
+https://prime-con-sem-layer.vercel.app/
 
 ## GitHub Repository
 
